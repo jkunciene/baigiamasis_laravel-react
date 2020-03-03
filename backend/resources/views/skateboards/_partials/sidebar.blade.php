@@ -4,7 +4,7 @@
             <a class="navbar-brand w-100 mr-0" href="#" style="line-height: 25px;">
                 <div class="d-table m-auto">
                     <img id="main-logo" class="d-inline-block align-top mr-1" style="max-width: 25px;" src="images/shards-dashboards-logo.svg" alt="Shards Dashboard">
-                    <span class="d-none d-md-inline ml-1">Shards Dashboard</span>
+                    <span class="d-none d-md-inline ml-1">Administratoriaus valdymas</span>
                 </div>
             </a>
             <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
@@ -24,42 +24,41 @@
     <div class="nav-wrapper">
         <ul class="nav flex-column">
             <li class="nav-item">
-                <a class="nav-link active" href="index.html">
+                <a class="nav-link active" href="/">
                     <i class="material-icons">edit</i>
                     <span>Pagrindinis</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="components-blog-posts.html">
-                    <i class="material-icons">vertical_split</i>
-                    <span>Prideti kategorija</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="add-new-post.html">
+                <a class="nav-link " href="/add_category/">
                     <i class="material-icons">note_add</i>
-                    <span>Prideti preke</span>
+                    <span>Pridėti kategoriją</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="form-components.html">
-                    <i class="material-icons">view_module</i>
-                    <span>Kategoriju valdymas</span>
+                <a class="nav-link " href="/add_product/">
+                    <i class="material-icons">note_add</i>
+                    <span>Pridėti produktą</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tables.html">
+                <a class="nav-link " href="/category_management/">
                     <i class="material-icons">table_chart</i>
-                    <span>Prekiu valdymas</span>
+                    <span>Kategorijų valdymas</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tables.html">
+                <a class="nav-link " href="/product_management/">
                     <i class="material-icons">table_chart</i>
-                    <span>Uzsakymu valdymas</span>
+                    <span>Produktų valdymas</span>
                 </a>
             </li>
-
+            <li class="nav-item">
+                <a class="nav-link " href="/orders_management/">
+                    <i class="material-icons">table_chart</i>
+                    <span>Užsakymų valdymas</span>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>
